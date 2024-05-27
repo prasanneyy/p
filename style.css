@@ -1,0 +1,163 @@
+.mes {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.arrow {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 8px;
+  left: 2px;
+}
+
+.pp {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 0px; /* Or bottom: 20px; */
+  left: 30px;
+  border-radius: 20px;
+}
+.me{
+    position: absolute;
+    margin-left: 20px;
+    top:-10px;
+    left: 50px;
+    font-size: 14px;
+    
+    
+    
+
+}
+
+.ca{
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  margin-left: 340px;
+  top: 2px;
+  
+  
+  
+  
+  
+  
+  
+}
+
+.vca{
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  margin-left: 374px;
+  top: 2px;
+  
+  
+  
+}
+
+.mi{
+  position: absolute;
+  top:-6px;
+  left:70px ;
+  width: 80px;
+}
+
+
+.rectangle {
+  position: absolute;
+  left: 220px;
+  top: 750px;
+  border-radius: 20px;
+  width: 190px;
+  height: 30px;
+  background-color:#242424 ;
+  
+}
+  .i{
+    position: absolute;
+  left: 240px;
+  top: 736px;
+  width: 200px;
+  height: 30px;
+  color: white;
+  z-index: 100;
+    
+  }       
+  
+  .rec{
+    
+    
+    position:absolute ;
+    width: 190px;
+    height:320px;
+    background-color:#242424 ;
+    border-radius: 20px;
+    top: 420px;
+    left:220px;
+    
+  }
+  .love{
+     position: absolute;
+  left: 240px;
+  top: 410px;
+  width: 160px;
+  height: 30px;
+  color: white;
+  z-index: 1;
+  }
+ 
+body {
+  background-image: url('me.jpg');
+  background-size: 760px 870px;
+  background-repeat: no-repeat;
+  background-position: -100px -10px;
+  
+}
+
+.pic2{
+  position:absolute;
+    width: 180px;
+    height:180px;
+    background-color:#242424 ;
+    border-radius: 4px;
+    top: 228px;
+    left:226px;
+}
+.pn{
+  position: fixed;
+  top:820px;
+  height:40px;
+  width:180px;
+  z-index: 100;
+  
+}
+
+.con{
+  position: fixed;
+  top:820px;
+  height:40px ;
+  width:480px;
+  background-color: #242424;
+  left: -20px;
+}
+
+.int{
+    position: fixed;
+  top:820px;
+  height:40px ;
+  left:190px;
+  background-color: #242424;
+  border:none;
+  
+}
+.bo{
+   position: fixed;
+  top:830px;
+  right: 64px;
+  left: 380px;
+  
+  
+}
