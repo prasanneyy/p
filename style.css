@@ -68,51 +68,54 @@
 
 .rectangle {
   position: absolute;
-  left: 220px;
-  top: 750px;
+  left: 200px;
+  top: 785px;
   border-radius: 20px;
-  width: 190px;
+  width: 220px;
   height: 30px;
   background-color:#242424 ;
   
 }
   .i{
-    position: absolute;
-  left: 240px;
-  top: 736px;
-  width: 200px;
-  height: 30px;
+    position: relative;
+  left: 202px;
+  font-size: 12px;
+  top: 766px;
+  width: 240px;
+  height: 20px;
   color: white;
   z-index: 100;
-    
+  padding: 8px;
+ 
   }       
   
   .rec{
     
     
     position:absolute ;
-    width: 190px;
-    height:320px;
+    width: 220px;
+    height:480px;
     background-color:#242424 ;
     border-radius: 20px;
-    top: 420px;
-    left:220px;
+    top: 300px;
+    left:200px;
     
   }
   .love{
      position: absolute;
-  left: 240px;
-  top: 410px;
-  width: 160px;
-  height: 30px;
+  left: 210px;
+  top: 300px;
+  width: 190px;
+  height: 20px;
   color: white;
   z-index: 1;
+  padding: 6px;
   }
  
 body {
   background-image: url('me.jpg');
-  background-size: 760px 870px;
-  background-repeat: no-repeat;
+  background-size: 800px 960px;
+  background-repeat: repeat;
   background-position: -100px -10px;
   
 }
@@ -123,21 +126,22 @@ body {
     height:180px;
     background-color:#242424 ;
     border-radius: 4px;
-    top: 228px;
-    left:226px;
+    top: 100px;
+    left:230px;
 }
 .pn{
   position: fixed;
-  top:820px;
+  top:840px;
   height:40px;
   width:180px;
   z-index: 100;
+  border-radius: 20px;
   
 }
 
 .con{
   position: fixed;
-  top:820px;
+  top:840px;
   height:40px ;
   width:480px;
   background-color: #242424;
@@ -146,16 +150,17 @@ body {
 
 .int{
     position: fixed;
-  top:820px;
-  height:40px ;
+  top:840px;
+  height:38px ;
   left:190px;
   background-color: #242424;
   border:none;
+  border-radius: 20px;
   
 }
 .bo{
    position: fixed;
-  top:830px;
+  top:850px;
   right: 64px;
   left: 380px;
   
